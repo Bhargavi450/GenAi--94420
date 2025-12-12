@@ -1,17 +1,19 @@
-# Virtual Environments
-venv/
-myvenv/
-.env/
-.env.local
-*.env
+cat >> .gitignore << 'EOF'
+# virtual environments (project)
+Assignments/Assignment2/app/benv/
+Assignments/Assignment2/app/myenv/
+Assignments/Assignment2/app/newenv/
+Assignments/Assignment2/app/appenv/
+Assignments/Assignment2/app/nenv/
 
-# Python cache
-_pycache_/
+# common venv names
+venv/
+env/
+renv/
+__pycache__/
 *.pyc
 
-# VS Code
-.vscode/
-
-# OS files
-Thumbs.db
-.DS_Store
+# dotenv / secrets
+.env
+.env.local
+EOF
