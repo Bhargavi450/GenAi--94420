@@ -23,7 +23,7 @@ count = 0
 for link in links:
     text = link.text.strip()
     url = link.get_attribute("href")
-
+   
     if url and (
         "intern" in url.lower() or
         "training" in url.lower() or
