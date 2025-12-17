@@ -58,7 +58,7 @@ def logout():
     st.session_state.page = "Login"
     st.rerun()
 
- 
+
 with st.sidebar:
     if st.session_state.logged_in:
         if st.button("Weather", use_container_width=True):
