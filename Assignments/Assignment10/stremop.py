@@ -1,0 +1,7 @@
+
+Create a Streamlit web application that allows users to connect to a MySQL database and ask natural language questions. The app should generate and execute SELECT SQL queries using an LLM and display both the query results and a simple English explanation.
+
+Note:
+Use the sample MySQL connection parameters provided in connection.txt and the sample database schema in db.txt for testing.
+
+pip install mysql-connector-python
